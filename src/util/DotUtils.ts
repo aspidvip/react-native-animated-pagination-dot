@@ -36,7 +36,7 @@ export type getDotStylePayload = {
    maxPage: number;
 }
 
-export const getDotStyle = ({ idx, curPage, maxPage }:getDotStylePayload):IDotStyle => {
+export const getDotStyle = ({ idx, curPage, maxPage }) => {
     let type = EnumDotType.SMALL;
 
     if (maxPage < 5) {
